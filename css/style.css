@@ -1,0 +1,78 @@
+.header {
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+}
+
+.navbar {
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+}
+
+.card {
+	margin-bottom: 30px;
+	border-radius: 14px;
+	overflow: hidden;
+	transition: .3s ease-in-out;
+}
+
+.card:hover {
+	box-shadow: 0 16px 40px 5px rgba(0,0,0,.2);
+}
+
+.image {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	object-fit: cover;
+	display: inline-block;
+}
+
+.cart-button {
+	font-size: 20px !important;
+	position: relative;
+}
+
+.cart-notif {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	background: rgba(0,0,0,.2);
+}
+
+.detail-body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.detail-footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #eeeeee;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+}
+
+.dot {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #333333;
+	display: inline-block;
+}
+
+.card-min {
+	margin-bottom: 15px;
+}
